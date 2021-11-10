@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/images/sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+a{
+    font-size: xx-large;
+    color: rgb(17, 55, 161);
+}
+.title{
+    justify-content: center;
+    display: flex;
+    font-size: xxx-large;
+    text-transform: uppercase;
+}
+.word1{
+    margin-right: 10px;
+    background-color: orange;
+}
+.word2{
+    margin-right: 10px;
+    background-color: white;
+}
+.word3{
+    background-color: green;
+}
+.sun{
+    background-image: url(/images/sun1.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100px;
+    width: 10%;
+    background-size: contain;
+    left: 1200px;
+    
+}
+.build{
+    width: 300%;
+    height: 300px;
+    position: absolute;
+    top: 210px;
+    background-repeat: repeat-x;
+    animation: building 30s ease-in-out infinite ;
+}
+.roads{
+    width: 350%;
+    height: 220px;
+    position: absolute;
+    top: 510px;
+    background-repeat: repeat-x;
+    animation: road 20s ease-in-out infinite ;
+
+}
+.carimg{
+    width: 35%;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+.front{
+    width: 6%;
+    position: absolute;
+    top: 533px;
+    left: 263px;
+    background-repeat: no-repeat;
+    animation: tyre 1s ease-in-out infinite ;
+
+}
+.back{
+    width: 6%;
+    position: absolute;
+    top: 533px;
+    left: 573px;
+    background-repeat: no-repeat;
+    animation: tyre 1s ease-in-out infinite ;
+
+}
+.flag{
+    width: 8%;
+    position: absolute;
+    top: 380px;
+    left: 600px;
+}
+
+@keyframes building{
+        100%{
+            transform: translateX(-2000px);
+        }
+}
+@keyframes road{
+    100%{
+        transform: translateX(-1500px);
+    }
+}
+@keyframes tyre{
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

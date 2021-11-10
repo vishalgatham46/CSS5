@@ -1,0 +1,142 @@
+body{
+    background-color: yellow;
+    color: black;
+    text-align: center;
+}
+.col{
+    display: flex;
+    justify-content: center;
+}
+a{
+    font-size: xx-large;
+    
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(201, 67, 62);
+    margin-left: 100px;
+    margin-bottom: 80px;
+    animation-name: box1;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    animation-name: box2;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    animation-name: box3;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.box4{
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    animation-name: box4;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.box5{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    animation-name: box5;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.box6{
+    height: 100px;
+    width: 100px;
+    background-color: steelblue;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    animation-name: box6;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes box1{
+    0%{
+        transform: skewX(-20deg);
+    }
+    50%{
+        transform: skewX(20deg);
+    }
+    100%{
+        transform: skewX(-20deg);
+    }
+}
+@keyframes box2{
+    0%{
+        transform: skewY(-20deg);
+    }
+    50%{
+        transform: skewY(20deg);
+    }
+    100%{
+        transform: skewY(-20deg);
+    }
+}
+@keyframes box3{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes box4{
+    0%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1,0.5);
+    }
+    100%{
+        transform: scale(1,1);
+    }   
+}
+@keyframes box5{
+    0%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(0.5,1);
+    }
+    100%{
+        transform: scale(1,1);
+    }   
+}
+@keyframes box6{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }   
+}

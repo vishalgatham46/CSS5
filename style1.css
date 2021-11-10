@@ -1,0 +1,140 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color: yellow;
+}
+a{
+    font-size: xx-large;
+    margin-left: 60px;
+    color: blue;
+}
+.container1{
+    display: block;
+    position: relative;
+    left: 650px;
+    top: 50px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(201, 67, 62);
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+#box1:hover{
+    animation: box1;
+    animation-duration: 3s;
+    animation-timing-function:ease-in-out;
+}
+@keyframes box1{
+    0%{
+        width: 100px;
+    }
+    50%{
+        width: 300px;
+    }
+    100%{
+        width:100px;
+    }
+}
+#box2:hover{
+    animation: box2;
+    animation-duration: 3s;
+    animation-timing-function:ease-in-out;
+}
+@keyframes box2{
+    0%{
+        width: 100px;
+        height: 100px;
+    }
+    50%{
+        width: 300px;
+        height: 300px;
+    }
+    100%{
+        width:100px;
+        height: 100px;
+    }
+}
+#box3:hover{
+    animation: box3;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+}
+@keyframes box3{
+    0%{
+        width: 100px;
+    }
+    50%{
+        width: 300px;
+    }
+    100%{
+        width:100px;
+    }
+}
+
+#box4:hover{
+    animation: box4;
+    animation-duration: 3s;
+    animation-timing-function:ease;
+}
+@keyframes box4{
+    0%{
+        width: 100px;
+    }
+    50%{
+        width: 300px;
+    }
+    100%{
+        width:100px;
+    }
+}
+#box5:hover{
+    animation: box5;
+    animation-duration: 3s;
+    animation-timing-function:ease-in;
+}
+@keyframes box5{
+    0%{
+        width: 100px;
+    }
+    50%{
+        width: 300px;
+    }
+    100%{
+        width:100px;
+    }
+}
+#box6:hover{
+    animation: box6;
+    animation-duration: 3s;
+    animation-timing-function:ease-out;
+}
+@keyframes box6{
+    0%{
+        width: 100px;
+    }
+    50%{
+        width: 300px;
+    }
+    100%{
+        width:100px;
+    }
+}
+#box7:hover{
+    animation: box7;
+    animation-duration: 3s;
+    animation-timing-function:ease-in-out;
+}
+@keyframes box7{
+    0%{
+        width: 100px;
+    }
+    50%{
+        width: 300px;
+    }
+    100%{
+        width:100px;
+    }
+}
