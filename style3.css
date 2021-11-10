@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image: url(/images/sky.jpg);
+    background-image: url(./images/sky.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -30,7 +30,7 @@ a{
     background-color: green;
 }
 .sun{
-    background-image: url(/images/sun1.jpg);
+    background-image: url(./images/sun1.jpg);
     background-repeat: no-repeat;
     position: absolute;
     height: 100px;
